@@ -43,21 +43,19 @@ I build AWS infrastructure, CI/CD pipelines, and containerized workflows. During
 | **[github-actions-ai-docker](https://github.com/MRathi2303/github-actions-ai-docker)** | 5-stage pipeline that detects 11 runtimes, builds non-root multi-stage Dockerfiles via Groq (with local fallback), blocks `HIGH`/`CRITICAL` Trivy findings, and pushes commit-SHA images to ECR over OIDC | Python, Docker, GitHub Actions, Trivy, AWS ECR |
 | **[aws-3tier-terraform](https://github.com/MRathi2303/Terraform_Learning/tree/main/aws-3tier-terraform)** | Modular 3-tier AWS network across 2 AZs with public, private app, and private DB subnets, internet-facing ALB, EC2 Auto Scaling, NAT Gateways, and Multi-AZ MySQL RDS | Terraform, AWS VPC, ALB, RDS |
 | **[devops-cert-tracker](https://github.com/MRathi2303/devops-cert-tracker)** | Flask + MySQL certification vault shipped through a DevSecOps pipeline with static analysis and container vulnerability scanning | Python, Flask, MySQL, Jenkins, Docker, Trivy, SonarQube |
-| **[aws_copilot_mcp](https://github.com/MRathi2303/aws_copilot_mcp)** | Model Context Protocol server (`aws-infra-copilot`) exposing AWS EC2 inspection tools to AI clients | Python, MCP, Boto3, AWS |
-| **[Portfolio-website](https://github.com/MRathi2303/Portfolio-website)** | Terminal-OS personal portfolio ([moonrathi.me](https://www.moonrathi.me)) with Vercel serverless API, GitHub Contents persistence, Docker, and CI checks | JavaScript, Node.js, Vercel, Docker |
 
 ---
 
 ### Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,githubactions,jenkins,linux,python,js,nodejs,postgres,mysql,git" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,githubactions,jenkins,linux,python,nodejs,postgres,mysql,git" alt="Tech Stack" />
 </p>
 
 - **Cloud & IaC:** AWS (VPC, EC2, Auto Scaling, ALB, S3, SQS, Lambda, DynamoDB, RDS, ECR, IAM, Secrets Manager, CloudWatch), Terraform
 - **Containers & CI/CD:** Docker, Docker Compose, Kubernetes, GitHub Actions (OIDC), Jenkins
 - **Security & Quality:** Trivy, SonarQube, Docker Scout
-- **Languages & Data:** Python (`boto3`, Flask), JavaScript / Node.js, Java, Bash, PostgreSQL, MySQL
+- **Languages & Data:** Python (`boto3`, Flask), Node.js, Java, Bash, PostgreSQL, MySQL
 
 ---
 
